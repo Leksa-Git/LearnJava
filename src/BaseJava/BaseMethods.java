@@ -8,20 +8,23 @@ public class BaseMethods {
     public static void main(String[] args) {
         int age = 25;
         String name = "Alex";
-        System.out.println(name + " " + age);
-        int[] num = {1, 2, 3};
+        System.out.println(name + " " + age); // примитивы
+
+
+        int[] num = {1, 2, 3}; // массив
         for (int i = 0; i < num.length; i++) {
             System.out.println(num[i]);
         }
-        if (age > 18) {
+
+        if (age > 18) { //if оператор
             System.out.println("Допуск");
         } else {
             System.out.println("Не допуск");
         }
         System.out.println(numadd(1,2));
 
-        Cat cat = new Cat();
-        cat.makesound();
+        Cat cat = new Cat(); //метод и интерфейс
+        cat.makesound(); //
     }
 
 }

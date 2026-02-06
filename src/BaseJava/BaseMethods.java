@@ -21,10 +21,11 @@ public class BaseMethods {
         } else {
             System.out.println("Не допуск");
         }
-        System.out.println(numadd(1,2));
+        System.out.println(numadd(1,2));// метод сложения
 
         Cat cat = new Cat(); //метод и интерфейс
-        cat.makesound(); //
+        cat.makesound();// метод класса cat
+        cat.run();// переписанный метод из интерфейса
     }
 
 }
